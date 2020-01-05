@@ -5,7 +5,7 @@ class FilmListing extends Component{
         return(
             <div className="film-list">
                 <h1 className="section-title">FILMS</h1>
-                {this.props.films.map(film=> {
+                {this.props.films.map((film)=> {
                     return(
                     <h1>{film.title}</h1>
                     )

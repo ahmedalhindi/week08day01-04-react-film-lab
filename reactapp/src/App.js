@@ -8,7 +8,8 @@ import FilmListing from './components/film-list/FilmListing';
 function App() {
   return (
     <div className="film-library">
-      <FilmListing films={TMDB.films} />
+      <FilmListing
+      films={TMDB.films} />
       <div className="film-details">
         <h1 className="section-title">DETAILS</h1>
       </div>
