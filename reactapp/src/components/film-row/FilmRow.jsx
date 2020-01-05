@@ -9,7 +9,7 @@ class FilmRow extends Component{
         return(
             <div className="film-row">
                 {/* {console.log(this.props)} */}
-                <FilmPoster film ={this.props} />
+                <FilmPoster film ={this.props.film} />
                 
 
                 <div className="film-summary">
